@@ -8,7 +8,7 @@ export const FETCH_WEATHER = 1;
 
 export function fetchWeather(city){
 
-    const url = `${BASE_URL}&q=${city},India`;
+    const url = `${BASE_URL}&q=${city},india`;
     const request = axios.get(url,{"Access-Control-Allow-Origin": "*"});
 
     return{
